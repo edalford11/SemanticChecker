@@ -6,8 +6,17 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		519397D816406B8500C249AA /* TypeParser.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 519397D616406B8500C249AA /* TypeParser.cpp */; };
+		519397DC1640A19A00C249AA /* Type.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 519397DA1640A19A00C249AA /* Type.cpp */; };
+		519397DD1640A19A00C249AA /* Type.h in Headers */ = {isa = PBXBuildFile; fileRef = 519397DB1640A19A00C249AA /* Type.h */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		519397CF16406B4B00C249AA /* libTypeParser.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = libTypeParser.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		519397D616406B8500C249AA /* TypeParser.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TypeParser.cpp; sourceTree = "<group>"; };
+		519397DA1640A19A00C249AA /* Type.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Type.cpp; sourceTree = "<group>"; };
+		519397DB1640A19A00C249AA /* Type.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Type.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -24,6 +33,9 @@
 		519397C416406B4B00C249AA = {
 			isa = PBXGroup;
 			children = (
+				519397DA1640A19A00C249AA /* Type.cpp */,
+				519397DB1640A19A00C249AA /* Type.h */,
+				519397D616406B8500C249AA /* TypeParser.cpp */,
 				519397D016406B4B00C249AA /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,6 +55,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				519397DD1640A19A00C249AA /* Type.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -97,6 +110,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				519397D816406B8500C249AA /* TypeParser.cpp in Sources */,
+				519397DC1640A19A00C249AA /* Type.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -191,6 +206,7 @@
 				519397D516406B4B00C249AA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
